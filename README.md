@@ -14,6 +14,7 @@ In visudo, add the following line:
 ssh-copy-id -i /path/to/your/key sui@your-fullnode-ip
 
 ## Example ini Config
+```
 [fullnodes]
 ip-address-1
 ip-address-2
@@ -22,3 +23,4 @@ ip-address-2
 ansible_user = sui
 ansible_private_key_file = /absolute/path/to/local/ssh/key
 sui_branch = testnet
+```
